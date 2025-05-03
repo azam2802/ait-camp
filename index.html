@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIT Bank</title>
+</head>
+<body>
+    <h1>AIT Bank</h1>
+    <h3 id="errorMessage"></h3>
+    <input type="text" placeholder="Enter sender" id="senderInput"/>
+    <input type="text" placeholder="Enter reciever" id="recieverInput"/>
+    <input type="text" placeholder="Amount" id="amountInput"/>
+    
+    <button id="sendButton">Send</button>
+
+    <input style="display: block; margin-top:10px; visibility: hidden" type="password" placeholder="Pin-code" id="pincodeInput"/>
+    <button id="confirmButton" style="margin-top:10px; visibility: hidden">Confirm</button>
+    
+    <ul id="clientsList"></ul>
+
+    <ul id="historyList"></ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
